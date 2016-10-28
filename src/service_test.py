@@ -19,7 +19,7 @@ def service_cb(req, event):
 
 def run_test():
     objects = []
-    samples = 10000
+    samples = 100
     bar = progressbar.ProgressBar(max_value=samples)
 
     print("Creating, testing and destroying {} services").format(samples)

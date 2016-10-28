@@ -18,7 +18,7 @@ def sub_cb(data, event):
 
 def run_test():
     objects = []
-    samples = 1000
+    samples = 100
     bar = progressbar.ProgressBar(max_value=samples)
 
     print("Creating, testing, and destroying {} publishers and subscribers").format(samples)
